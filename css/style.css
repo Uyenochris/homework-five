@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.nav {
+  width: 90%;
+  margin: 20px auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.logo {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+.about {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.about p {
+  width: 80%;
+  line-height: 1.5;
+  color: #6b6b6b;
+}
+
+.clients {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.client {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.client img {
+  width: 30%;
+  margin-right: 5%;
+}
+
+.client div {
+  width: 65%;
+}
+
+.client span {
+  color: #7fa6c9;
+  display: block;
+  margin-top: 10px;
+}
+
+footer {
+  background: #7fa6c9;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .client {
+    flex-direction: column;
+  }
+  .client img,
+  .client div {
+    width: 100%;
+  }
+  .about p {
+    width: 100%;
+  }
+}
